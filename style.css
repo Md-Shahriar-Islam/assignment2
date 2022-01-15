@@ -45,8 +45,17 @@ ion-icon {
       width:50%;
   }
   .Influencer img {  
-    width:80%
+    width:80%;
+    transform:scale(1);
+    transition:transform 1s;
+    
+
   }
+  .Influencer img:hover
+  {
+      transform: scale(1.5);
+  }
+
  .btn
  {
      text-decoration:none;
@@ -54,6 +63,10 @@ ion-icon {
      background-color:#E02C6D;
      padding:10px 20px;
      border-radius:15px;
+ }
+ .btn:hover
+ {
+    background-color:#4d1a2c;
  }
 .logo li {
     list-style:none;
@@ -113,6 +126,20 @@ footer ul
     list-style: none;
     justify-content: center;
     margin-right:15px;
+}
+.product-name img
+{
+    transform:scale(1);
+    opacity:0.7;
+    background-color:black;
+    transition:opacity 1s transform 1s;
+    
+}
+.product-name img:hover
+{
+    opacity: 1;
+    transform:scale(0.8);
+    transition:opacity 2s, transform 1s;
 }
 footer li
 {

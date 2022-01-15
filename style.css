@@ -153,9 +153,9 @@ footer p
 {
     .btn
     {
-        font-size:16px;
-        padding:2px 2px;
-        border-radius:2px;
+        font-size:10px;
+        padding:5px 10px;
+        border-radius:5px;
     }
     .items
     {

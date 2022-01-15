@@ -3,4 +3,46 @@ body
 {
     background-color:white;
     font-family: 'Poppins', sans-serif;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
 }
+h1{
+    font-size: 2em;
+}
+header,.Influencer
+{
+    display:flex;
+    width:70%;
+    margin-top:60px;
+
+}
+header
+{
+    justify-content:space-between;
+}
+nav li
+{
+    list-style: none;
+    display:inline-block;
+    margin-right:10px;
+    font-weight: 700;
+}
+ion-icon {
+    font-size: 20px;
+  }
+  .Influencer article {
+      width:50%;
+  }
+  .Influencer img {  
+    width:80%
+  }
+ a
+ {
+     text-decoration:none;
+     color:white;
+     background-color:#E02C6D;
+     padding:10px 20px;
+     border-radius:15px;
+ }

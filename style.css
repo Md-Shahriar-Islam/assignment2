@@ -47,7 +47,7 @@ ion-icon {
   .Influencer img {  
     width:80%
   }
- a
+ .btn
  {
      text-decoration:none;
      color:white;
@@ -94,6 +94,13 @@ justify-content: space-between;
 {
     margin-top:0;
 }
+.more
+{
+    text-decoration:none;
+    display:flex;
+    justify-content: flex-end;
+    color:#E02C6D;
+}
 footer
 {
     width:100%;
@@ -114,4 +121,31 @@ footer li
 footer p
 {
     text-align: center;
+}
+@media screen and (max-width: 688px)
+{
+    .items,.Influencer
+    {
+        display:grid;
+        grid-template-columns: 1fr;
+    }
+    nav
+    {
+        display:none;
+
+    }
+    header
+    {
+        display:flex;
+        justify-content: center;
+    }
+    .logo ul
+    {
+        display:grid;
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    
+ 
+
 }

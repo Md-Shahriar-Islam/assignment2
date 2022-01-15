@@ -124,7 +124,7 @@ footer p
 }
 @media screen and (max-width: 688px)
 {
-    .items,.Influencer
+    .items
     {
         display:grid;
         grid-template-columns: 1fr;
@@ -139,13 +139,32 @@ footer p
         display:flex;
         justify-content: center;
     }
+    .Influencer
+    {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .logo ul
     {
-        display:grid;
-        grid-template-columns:repeat(2,1fr);
+        display:flex;
+        flex-wrap:wrap;
     }
 
     
  
 
+}
+@media screen and (min-width: 689px) and (max-width:992px){
+
+    .items
+    {
+        display:grid;
+        grid-template-columns:repeat(2,1fr);
+    }
+    .logo ul
+    {
+        display:flex;
+        flex-wrap: wrap;;
+    }
 }

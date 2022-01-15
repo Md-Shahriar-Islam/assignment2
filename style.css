@@ -151,6 +151,12 @@ footer p
 }
 @media screen and (max-width: 688px)
 {
+    .btn
+    {
+        font-size:16px;
+        padding:5px 10px;
+        border-radius:5px;
+    }
     .items
     {
         display:grid;

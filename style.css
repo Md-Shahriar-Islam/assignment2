@@ -7,6 +7,7 @@ body
     flex-direction:column;
     justify-content:center;
     align-items: center;
+    margin:0;
 }
 h1{
     font-size: 2em;
@@ -71,8 +72,8 @@ ion-icon {
 }
 .product-name
 {
-    border:1px solid black;
     margin:0 20px 20px 0;
+    box-shadow: 10px 5px 5px gray;
 }
 figcaption
 {
@@ -89,7 +90,28 @@ figcaption
 display: flex;
 justify-content: space-between;
 }
-.star,.point
+.star,.point,.content
 {
     margin-top:0;
+}
+footer
+{
+    width:100%;
+    background-color:rgb(64, 11, 102);
+    color:white;
+}
+footer ul
+{
+    display:flex;
+    list-style: none;
+    justify-content: center;
+    margin-right:15px;
+}
+footer li
+{
+    margin-right:20px;
+}
+footer p
+{
+    text-align: center;
 }
